@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ssldemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ssldemo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ssldemo-1.0.0.war">
+      <element id="artifact" artifact-name="ssldemo:war exploded" />
+    </root>
+  </artifact>
+</component>
